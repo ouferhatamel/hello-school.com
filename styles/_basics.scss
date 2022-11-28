@@ -1,0 +1,58 @@
+// Color Variables
+$dark_blue: #1D3557;
+$middle_blue: #457B9D;
+$light_blue: #A8DADC;
+$light_green: #F1FAEE;
+$red_clr: #E63946;
+
+// Spaces
+$d_section_padding: 3.5rem 10rem;
+$l_section_padding: 3.5rem 6rem;
+
+// Text
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;600;700&display=swap');
+
+// Sizes
+$d_headline_size: 4rem;
+$d_body_size: 1rem;
+$d_heading_size: 2.5rem;
+$d_nav_size: .9rem;
+$d_btn_size: 2rem;
+
+$t_headline_size: 3rem;
+$t_body_size: .9rem;
+$t_heading_size: 2rem;
+$t_nav_size: .8rem;
+$t_btn_size: 1.6rem;
+
+$m_headline_size: 2rem;
+$m_body_size: 0.8rem;
+$m_heading_size: 2rem;
+$m_nav_size: 0.875rem;
+
+// Line height
+$heading_line_height: 100%;
+$body_line_height: 150%;
+
+// Font family
+$heading_font: 'Bebas Neue', cursive;
+$body_font:  'Montserrat', sans-serif;
+
+// Font weight
+$body_weight: 400;
+$nav_weight: 600;
+$caption_weight: 700;
+
+// BreakPoints
+$mobile_bp: 480px;
+$tablet_bp: 768px;
+$laptop_bp: 1024px;
+$desktop_bp: 1200px;
+
+// Reset
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: $dark_blue;
+}

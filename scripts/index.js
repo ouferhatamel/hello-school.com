@@ -2,8 +2,11 @@ const illustration = document.querySelector('.scdImg');
 const heading = document.querySelector('.description_title h1');
 const bodyText = document.querySelector('.teachers_description p');
 const faqsToggle = document.querySelectorAll('.questionLine span');
+const menuBtn = document.querySelector('.mNav_menuBtn');
 
-console.log(screen.width)
+// Open mobile menu
+let opened = false;
+menuBtn.addEventListener('click', openCloseMenu)
 
 faqsToggle.forEach(btn => {
 
@@ -77,6 +80,22 @@ previousBtn.addEventListener('click', ()=>{
         updateInfo(counter);
     }
 });
+
+// Open and close the mobile nav menu
+function openCloseMenu() {
+    const menu = document.querySelector('nav');
+    const bar = document.querySelector('.mNav_menuBtn_bar');
+    if(opened){
+        menu.style.display = 'none';
+        opened = false;
+        bar.classList.remove('mNav_menuBtn_bar--opened');
+    } else {
+        menu.style.display = 'flex';
+        opened = true;
+        bar.classList.add('mNav_menuBtn_bar--opened');
+    }
+    
+}
 function updateInfo(counter) {
     illustration.setAttribute('src', infos[counter].imgUrl);
     heading.textContent = infos[counter].heading;

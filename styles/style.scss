@@ -813,19 +813,19 @@ nav{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        height: 20vh;
+        height: 15vh;
         padding: 2rem 1rem;
         .mNav_logo{
             img{
-                height: 5rem;
+                height: 4rem;
             }
         }
         .mNav_btns{
             display: flex;
             gap: 1rem;
             .mNav_btn{
-                width: 2.8rem;
-                height: 2.8rem;
+                width: 2.2rem;
+                height: 2.2rem;
                 background-color: $middle_blue;
                 border: 3px solid $dark_blue;
                 box-shadow: .5rem .5rem $dark_blue;
@@ -833,7 +833,7 @@ nav{
                 justify-content: center;
                 align-items: center;
                 img{
-                    width: 1.5rem;
+                    width: 1.2rem;
                 }
                 &:active{
                     box-shadow: 0 0 $dark_blue;
@@ -851,7 +851,7 @@ nav{
             }
             .mNav_menuBtn_bar{
                 background-color: $light_green;
-                width: 12px;
+                width: 10px;
                 height: 2px;
                 transform: rotate(180deg);
                 margin-left: .5rem;
@@ -861,7 +861,7 @@ nav{
                     content: '';
                     background-color: $light_green;
                     position: absolute;
-                    width: 20px;
+                    width: 17px;
                     height: 2px;
                 }
                 &::before {
@@ -884,17 +884,21 @@ nav{
         }
     }
     .hero{
-        padding-top: 1rem;
+        padding-top: 0;
         gap: 0;
         .headlineDecoration{
             padding-left: 2rem;
             h1{
                 transform: initial;
+                font-size: $m_headline_size;
             }
             .Headline-second{
-                position: relative;
                 h1{
-                    transform: translate(-30%, -35%);
+                    transform: translate(-35%, -35%);
+                    font-size: $m_headline_size;
+                }
+                img{
+                    width: 9.5rem;
                 }
             }
         }
@@ -903,14 +907,14 @@ nav{
             background-color: transparent;
             border: none;
             box-shadow: none;
-            padding: 2rem;
+            padding: 1rem 2rem;
             .hero-text{
                 gap: 1.5rem;
                 p{
                     width: 100%;
                 }
                 .heroCta{
-                    width: 42%;
+                    width: 50%;
                 }
             }
             .hero-illustration{
@@ -921,8 +925,8 @@ nav{
                     right: -1rem;
                   }
                   &:last-child{
-                    width: 26rem;
-                    top: -1.5rem;
+                    width: 24rem;
+                    top: 0;
                     right: -8rem;
                   }
                 }

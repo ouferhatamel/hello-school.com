@@ -781,19 +781,19 @@ nav .phoneCall .callButton img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 20vh;
+    height: 15vh;
     padding: 2rem 1rem;
   }
   .mNav .mNav_logo img {
-    height: 5rem;
+    height: 4rem;
   }
   .mNav .mNav_btns {
     display: flex;
     gap: 1rem;
   }
   .mNav .mNav_btns .mNav_btn {
-    width: 2.8rem;
-    height: 2.8rem;
+    width: 2.2rem;
+    height: 2.2rem;
     background-color: #457B9D;
     border: 3px solid #1D3557;
     box-shadow: 0.5rem 0.5rem #1D3557;
@@ -802,7 +802,7 @@ nav .phoneCall .callButton img {
     align-items: center;
   }
   .mNav .mNav_btns .mNav_btn img {
-    width: 1.5rem;
+    width: 1.2rem;
   }
   .mNav .mNav_btns .mNav_btn:active {
     box-shadow: 0 0 #1D3557;
@@ -819,7 +819,7 @@ nav .phoneCall .callButton img {
   }
   .mNav .mNav_btns .mNav_menuBtn_bar {
     background-color: #F1FAEE;
-    width: 12px;
+    width: 10px;
     height: 2px;
     transform: rotate(180deg);
     margin-left: 0.5rem;
@@ -829,7 +829,7 @@ nav .phoneCall .callButton img {
     content: "";
     background-color: #F1FAEE;
     position: absolute;
-    width: 20px;
+    width: 17px;
     height: 2px;
   }
   .mNav .mNav_btns .mNav_menuBtn_bar::before {
@@ -849,7 +849,7 @@ nav .phoneCall .callButton img {
     transform: rotate(-45deg) translate(5px, 5px);
   }
   .hero {
-    padding-top: 1rem;
+    padding-top: 0;
     gap: 0;
   }
   .hero .headlineDecoration {
@@ -857,19 +857,21 @@ nav .phoneCall .callButton img {
   }
   .hero .headlineDecoration h1 {
     transform: initial;
-  }
-  .hero .headlineDecoration .Headline-second {
-    position: relative;
+    font-size: 2rem;
   }
   .hero .headlineDecoration .Headline-second h1 {
-    transform: translate(-30%, -35%);
+    transform: translate(-35%, -35%);
+    font-size: 2rem;
+  }
+  .hero .headlineDecoration .Headline-second img {
+    width: 9.5rem;
   }
   .hero .hero-description {
     flex-direction: column;
     background-color: transparent;
     border: none;
     box-shadow: none;
-    padding: 2rem;
+    padding: 1rem 2rem;
   }
   .hero .hero-description .hero-text {
     gap: 1.5rem;
@@ -878,7 +880,7 @@ nav .phoneCall .callButton img {
     width: 100%;
   }
   .hero .hero-description .hero-text .heroCta {
-    width: 42%;
+    width: 50%;
   }
   .hero .hero-description .hero-illustration img:first-child {
     width: 4rem;
@@ -886,8 +888,8 @@ nav .phoneCall .callButton img {
     right: -1rem;
   }
   .hero .hero-description .hero-illustration img:last-child {
-    width: 26rem;
-    top: -1.5rem;
+    width: 24rem;
+    top: 0;
     right: -8rem;
   }
   .services {

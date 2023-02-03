@@ -928,11 +928,11 @@ nav .phoneCall .callButton img {
     position: initial;
   }
   .goals .goals_left .titleText .lightText {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
   }
   .goals .goals_left .titleText img {
-    width: 11.5rem;
-    right: -1rem;
+    width: 10rem;
+    right: -1.3rem;
   }
   .goals .goals_left .goal_ctaBtn {
     position: absolute;
@@ -1016,6 +1016,7 @@ nav .phoneCall .callButton img {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    gap: 4rem;
   }
   .footer .footer_navigation {
     flex-direction: column;

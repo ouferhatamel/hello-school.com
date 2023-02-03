@@ -968,11 +968,11 @@ nav{
             position: initial;
             .titleText{
                 .lightText{
-                    font-size: $d_heading_size;
+                    font-size: 2.2rem;
                 }
                 img{
-                    width: 11.5rem;
-                    right: -1rem;
+                    width:10rem;
+                    right: -1.3rem;
                 }
             }
             .goal_ctaBtn{
@@ -1065,6 +1065,7 @@ nav{
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
+        gap: 4rem;
 
         .footer_navigation{
             flex-direction: column;

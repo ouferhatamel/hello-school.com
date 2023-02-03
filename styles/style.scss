@@ -759,7 +759,7 @@ nav{
         padding: $m_section_padding;
     }
     .headingText{
-        font-size: $d_heading_size;
+        font-size: $m_heading_size;
     }
     header{
         padding: 0 !important;
@@ -1009,12 +1009,89 @@ nav{
         }
     }
     .teachers{
-        display: none;
+        margin-top: 9rem;
+        .teachers_bgLines{
+            top: 4rem;
+            left: -3rem;
+            img{
+                width: 30rem;
+            }
+        }
+        .teachers_testmonies{
+            flex-direction: column;
+            gap: 4rem;
+            .teachers_illustration{
+                img{
+                    height: 18rem;
+                    &:last-child{
+                        height: 19rem;
+                    }
+                }
+            }
+            .teachers_description{
+                .description_title{
+                    gap: .8rem;
+                }
+            }
+        }
+        .teachers_characteristics{
+            .teachers_carac{
+                font-size: 1.5rem;
+            }
+        }
+        .teachers_CTA{
+            .ctaBtn{
+                width: fit-content;
+                padding-left: 1rem;
+                padding-right: 1rem;
+            }
+        }
     }
     .faqs{
-        display: none;
+        gap: 2rem;
+        .faqs_questionsBloc{
+            width: 100%;
+            .faqs_ctaBtns{
+                margin-top: 3rem;
+                div{
+                    font-size: 1.5rem;
+                }
+            }
+        }
     }
     .footer{
-        display: none;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+
+        .footer_navigation{
+            flex-direction: column;
+            align-items: center;
+            gap: 4rem;
+            .footer_logo{
+            img{
+                height: 6rem;
+            }
+            }
+            .footer_links{
+                ul{
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 2rem;
+                }
+            }
+            .footer_cta{
+                font-size: 1.5rem;
+                padding: .5rem 1rem;
+            }
+        }
+        .footer_social{
+            margin-top: 0;
+            img{
+                width: 1.7rem;
+            }
+        }
     }
 }

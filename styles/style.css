@@ -728,10 +728,10 @@ nav .phoneCall .callButton img {
 }
 @media only screen and (max-width: 480px) {
   .section {
-    padding: 2rem 3rem;
+    padding: 3rem 3rem;
   }
   .headingText {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   header {
     padding: 0 !important;
@@ -966,12 +966,78 @@ nav .phoneCall .callButton img {
     padding: 2rem;
   }
   .teachers {
-    display: none;
+    margin-top: 9rem;
+  }
+  .teachers .teachers_bgLines {
+    top: 4rem;
+    left: -3rem;
+  }
+  .teachers .teachers_bgLines img {
+    width: 30rem;
+  }
+  .teachers .teachers_testmonies {
+    flex-direction: column;
+    gap: 4rem;
+  }
+  .teachers .teachers_testmonies .teachers_illustration img {
+    height: 18rem;
+  }
+  .teachers .teachers_testmonies .teachers_illustration img:last-child {
+    height: 19rem;
+  }
+  .teachers .teachers_testmonies .teachers_description .description_title {
+    gap: 0.8rem;
+  }
+  .teachers .teachers_characteristics .teachers_carac {
+    font-size: 1.5rem;
+  }
+  .teachers .teachers_CTA .ctaBtn {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
   .faqs {
-    display: none;
+    gap: 2rem;
+  }
+  .faqs .faqs_questionsBloc {
+    width: 100%;
+  }
+  .faqs .faqs_questionsBloc .faqs_ctaBtns {
+    margin-top: 3rem;
+  }
+  .faqs .faqs_questionsBloc .faqs_ctaBtns div {
+    font-size: 1.5rem;
   }
   .footer {
-    display: none;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .footer .footer_navigation {
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+  }
+  .footer .footer_navigation .footer_logo img {
+    height: 6rem;
+  }
+  .footer .footer_navigation .footer_links ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  .footer .footer_navigation .footer_cta {
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+  }
+  .footer .footer_social {
+    margin-top: 0;
+  }
+  .footer .footer_social img {
+    width: 1.7rem;
   }
 }/*# sourceMappingURL=style.css.map */
